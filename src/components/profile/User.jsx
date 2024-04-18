@@ -1,9 +1,8 @@
-import React, {Component} from "react";
-import './Profile.css';
+import '../Style.css'
 
-class Profile extends Component {
-    render() {
-        return(
+const User = () => {
+    return (
+        <>
             <div className='relative font-poppins'>
             <header className='relative'>
                 <div className="container mx-auto flex items-center justify-between">
@@ -186,9 +185,10 @@ class Profile extends Component {
                     </div>
                 </div>
                 </footer>
-            </div>
-        );
-    }
+            </div>        
+        </>
+    )
 }
 
-export default Profile;
+export default User
+
