@@ -1,6 +1,8 @@
 import './Home.css'
+import { useNavigate } from 'react-router-dom'
 
 const Signup = () => {
+    const navigate = useNavigate
     return (
         <>
             <div className='relative'>
@@ -46,7 +48,7 @@ const Signup = () => {
                 </div>
 
                 <div className='mt-8 flex items-center justify-center text-base font-semibold'>Already have an account? 
-                        <a src="/register" className='text-base text-custom-teal font-extrabold underline hover:text-black'> LogIn Now</a>
+                        <button onClick ={() => navigate('/home')} className='text-base text-custom-teal font-extrabold underline hover:text-black'> LogIn Now</button>
                     </div>
 
                 <footer className='absolute w-full py-3 mt-8'>

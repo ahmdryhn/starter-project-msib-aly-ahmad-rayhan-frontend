@@ -58,7 +58,7 @@ const Login = () => {
         
                     <a href="">
                     <div className="flex items-center justify-center px-3 bg-custom-teal hover:bg-black  h-14 width rounded mt-8 text-white text-xl font-semibold">
-                        <button  onClick ={() => navigate('/profile')}>Log In</button></div>
+                        <button onClick ={() => navigate('/profile')}>Log In</button></div>
                     </a>
         
                     <div className="flex items-center justify-center width mt-3">
