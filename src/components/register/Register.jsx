@@ -1,8 +1,6 @@
-import React, {Component} from "react";
 import './Register.css'
 
-class Register extends Component {
-    render() {
+const Register = () => {
         return (
             <div className='relative'>
             <header className='relative'>
@@ -69,6 +67,5 @@ class Register extends Component {
             </div>
         );
     }
-}
 
 export default Register
